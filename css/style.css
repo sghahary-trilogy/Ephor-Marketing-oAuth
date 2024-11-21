@@ -401,9 +401,9 @@ button:focus {
 }
 
 .header_title {
-    font-size: 60px;
-    line-height: 65px;
-    max-width: 85%;
+    font-size: 55px;
+    line-height: 55px;
+    max-width: 90%;
     font-weight: 300;
     text-transform: capitalize;
 }
@@ -457,10 +457,20 @@ button:focus {
 .home-bg-img {
     background-image: url(../images/home-bg1.jpg);
     background-size: cover;
-    padding-top: 200px;
+    padding-top: 175px;
     position: relative;
     background-position: center center;
 }
+
+.home-bg-img-sm {
+    background-image: url(../images/home-bg1.jpg);
+    background-size: cover;
+    padding-top: 125px;
+    padding-bottom: 25px;
+    position: relative;
+    background-position: center center;
+}
+
 
 
 /*---DEMO GRADIENT---*/
@@ -937,7 +947,7 @@ ul.footer_menu_list li a {
 .video-container {
     position: relative;
     width: 100%;
-    padding: 56.25% 0 0 0;
+    padding: 56.25% 100px 50px 100px;
   }
 
 .video-frame {
